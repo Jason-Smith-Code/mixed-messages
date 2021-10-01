@@ -46,7 +46,7 @@ const generateWeapon = () => {
     // create event trigger for button
     document.getElementsByTagName("button").onclick = generateWeapon;
     // Change the elements displayed
-    document.getElementById("result").innerHTML = randPrefix + "&nbsp;" + randWeapon + "&nbsp;" + randSuffix;
+    document.getElementById("result").innerHTML = randPrefix + " " + randWeapon + " " + randSuffix;
 }
 
 

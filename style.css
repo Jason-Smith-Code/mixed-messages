@@ -37,9 +37,32 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mixed-message-container {
+    width: 100%;
 }
 
 #result {
     font-size: 3em;
     margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    #result {
+        font-size: 2em;
+        margin-bottom: 50px;
+    }
+
+    button {
+        font-size: 1em;
+    }
+
+    button:hover {
+        padding: 10px 20px;
+        cursor: pointer;
+    }
 }
