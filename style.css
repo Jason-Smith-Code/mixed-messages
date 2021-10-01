@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+p, button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    content: 'hello';
+    border-radius:25px;
+    transition: 500ms;
+    border:1px solid black;
+    font-size: 2em;
+}
+
+button:hover {
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#result {
+    font-size: 3em;
+    margin-bottom: 50px;
+}
